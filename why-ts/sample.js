@@ -11,7 +11,7 @@
  * @param {number} a dsds
  * @param {number} b dsds
  */
-function sum(a, b) {
+function sum1(a, b) {
     return a + b;
 }
-sum(10, 20)
+sum1(10, 20)
