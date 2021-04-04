@@ -4,3 +4,7 @@ interface User {
 }
 
 let seho: User;
+
+
+seho.age = 1;
+seho.name = '이름';
