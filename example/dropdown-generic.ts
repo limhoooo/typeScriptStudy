@@ -1,16 +1,32 @@
-const emails = [
+interface DropjownItem<T> {
+  value: T;
+  selected: boolean;
+}
+
+// interface Email {
+//   value: string;
+//   selected: boolean;
+// }
+
+
+const emails: DropjownItem<string>[] = [
   { value: 'naver.com', selected: true },
   { value: 'gmail.com', selected: false },
   { value: 'hanmail.net', selected: false },
 ];
 
-const numberOfProducts = [
+// interface ProductNumber {
+//   value: number;
+//   selected: boolean;
+// }
+
+const numberOfProducts: DropjownItem<number>[] = [
   { value: 1, selected: true },
   { value: 2, selected: false },
   { value: 3, selected: false },
 ];
 
-function createDropdownItem(item) {
+function createDropdownItem(item: DropjownItem<string> | DropjownItem<number>) {
   const option = document.createElement('option');
   option.value = item.value.toString();
   option.innerText = item.value.toString();
