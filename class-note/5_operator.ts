@@ -30,20 +30,6 @@ interface Person{
     age: number;
 }
 
-// 유니온
-function askSomeone(someone:Developer| Person) {
-
+function askSomeone(someone: Developer | Person) {
+    someone.age
 }
-askSomeone({ name: '디벨로퍼', skill: '웹 개발' });
-askSomeone({ name: '캡틴', age: 100 });
-
-// 인터섹션
-function askSomeone1(someone:Developer & Person) {
-    someone.name;
-    someone.skill;
-    someone.age;
-}
-// askSomeone1({ name: '디벨로퍼', skill: '웹 개발' });
-
-let limho2: string | number | boolean;
-let limho3: string & number & boolean;
