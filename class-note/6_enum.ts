@@ -20,7 +20,6 @@ function askQuestion(answer: Answer) {
     if (answer === Answer.Yes) {
         console.log('정답입니다.');
                 console.log('정답입니다.');
-
                         console.log('정답입니다.');
 
         console.log('정답입니다.');
