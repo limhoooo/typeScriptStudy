@@ -10,7 +10,7 @@ enum Shoes2 {
     Adidas = '아디다스'
 }
 
-enum Answer {
+enum Answers {
     Yes = 'Y',
     No = 'N',
 }
