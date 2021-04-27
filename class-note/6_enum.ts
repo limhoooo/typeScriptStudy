@@ -12,7 +12,7 @@ enum Shoes2 {
 
 enum Answers {
     Yes = 'Y',
-    No = 'N',
+    No = 'N ',
 }
 
 // 예제
